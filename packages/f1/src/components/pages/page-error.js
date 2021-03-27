@@ -1,7 +1,7 @@
 import React from "react";
 import { styled, connect } from "frontity";
 import Link from "@frontity/components/link";
-import Error404 from "../images/404.svg";
+import Error404 from "../../images/404.svg";
 
 const description404 = (
   <>

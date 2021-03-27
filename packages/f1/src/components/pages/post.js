@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { connect, styled } from "frontity";
 import Link from "@frontity/components/link";
-import List from "./list";
-import FeaturedMedia from "./featured-media";
+import List from "../list";
+import FeaturedMedia from "../featured-media";
 
 const Post = ({ state, actions, libraries }) => {
   // Get information about the current URL.

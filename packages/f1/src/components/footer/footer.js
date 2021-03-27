@@ -2,29 +2,12 @@ import React from "react";
 import { connect, styled } from "frontity";
 import Link from "@frontity/components/link";
 import logo from "../../images/logo.svg";
-import Mailchimp from "./newsletter";
-
- 
-// simplest form (only email)
 
 
 const Footer = ({ state }) => {
-  // const options = state.source.get("acf-options-page");
   return (
     <>
       <Container>
-        <div className="newsletter-container">
-          <div className="form-text-container">
-            <h4>Bli med i HostWP-nyhetsbrevet</h4>
-            <p>Hold deg oppdatert på nye utgivelser og funksjoner, veiledninger og nyheter.</p>
-          </div>
-          <div className="form-container">
-            <div className="newsletter-form">
-              <Mailchimp />
-            </div>
-          </div>
-        </div>
-        <hr className="divider div1" />
         <div className="footer-grid">
           <div className="footer-widget">
             <img src={logo} alt="logo" width="150px" height="50px" />            
