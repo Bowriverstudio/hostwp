@@ -52,9 +52,14 @@ const settings = {
     },
     "@frontity/tiny-router",
     "@frontity/html2react",
-    "@aamodtgroup/frontity-contact-form-7",
+    // "@aamodtgroup/frontity-contact-form-7",
     "@frontity/head-tags",
   ]
 };
 
 export default settings;
+
+// "dayjs": "^1.10.4",
+// "lottie-react": "^2.1.0",
+// "react-intersection-observer": "^8.31.0",
+// "react-spring": "^8.0.27"

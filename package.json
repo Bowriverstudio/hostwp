@@ -17,18 +17,14 @@
   },
   "prettier": {},
   "dependencies": {
-    "@aamodtgroup/frontity-contact-form-7": "^0.1.0",
     "@awsmin/f1": "./packages/f1",
-    "@frontity/core": "^1.11.0",
+    "@frontity/components": "^1.7.1",
+    "@frontity/core": "^1.11.1",
     "@frontity/google-tag-manager-analytics": "^1.2.1",
     "@frontity/head-tags": "^1.1.1",
-    "@frontity/html2react": "^1.6.1",
-    "@frontity/tiny-router": "^1.4.0",
+    "@frontity/html2react": "^1.6.2",
+    "@frontity/tiny-router": "^1.4.1",
     "@frontity/wp-source": "^1.11.2",
-    "dayjs": "^1.10.4",
-    "frontity": "^1.14.2",
-    "lottie-react": "^2.1.0",
-    "react-intersection-observer": "^8.31.0",
-    "react-spring": "^8.0.27"
+    "frontity": "^1.14.3"
   }
 }

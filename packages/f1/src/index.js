@@ -1,8 +1,8 @@
-import Theme from "./components";
-import image from "@frontity/html2react/processors/image";
-import iframe from "@frontity/html2react/processors/iframe";
-import link from "@frontity/html2react/processors/link";
-import menuHandler from "./components/handlers/menu-handler";
+// import Theme from "./components";
+// import image from "@frontity/html2react/processors/image";
+// import iframe from "@frontity/html2react/processors/iframe";
+// import link from "@frontity/html2react/processors/link";
+// import menuHandler from "./components/handlers/menu-handler";
 
 const awsminF1 = {
   name: "@awsmin/f1",
@@ -11,7 +11,7 @@ const awsminF1 = {
      *  In Frontity, any package can add React components to the site.
      *  We use roots for that, scoped to the `theme` namespace.
      */
-    theme: Theme,
+    // theme: Theme,
   },
   state: {
     /**
@@ -42,7 +42,7 @@ const awsminF1 = {
         state.theme.isMobileMenuOpen = false;
       },
       beforeSSR: async ({ state, actions }) => {
-        await actions.source.fetch(`/menu/${state.theme.menuUrl}/`);
+        // await actions.source.fetch(`/menu/${state.theme.menuUrl}/`);
       },
     },
   },
@@ -53,10 +53,10 @@ const awsminF1 = {
        * and internal link inside the content HTML.
        * You can add your own processors too.
        */
-      processors: [image, iframe, link],
+      // processors: [image, iframe, link],
     },
     source: {
-      handlers: [menuHandler],
+      // handlers: [menuHandler],
     },
   },
 };
